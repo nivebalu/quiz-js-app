@@ -1,0 +1,48 @@
+{
+  "questionnaire": [
+    {
+      "question": "What type of language is JavaScript?",
+      "choices": ["Compiled", "Interpreted", "Static"],
+      "answer": 1,
+      "type": "single"
+    },
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "choices": ["<js>", "<javascript>", "<script>", "<scripting>"],
+      "answer": 2,
+      "type": "single"
+    },
+    {
+      "question": "Where is the correct place to insert a JavaScript?",
+      "choices": [
+        "<head>",
+        "<header>",
+        "<body>",
+        "both <head> and <body> are valid"
+      ],
+      "answer": 3,
+      "type": "single"
+    },
+    {
+      "question": "What is the correct syntax for referring to an external script called \"index.js\"?",
+      "choices": [
+        "<script name=\"index.js\">",
+        "<script src=\"index.js\">",
+        "<script href=\"index.js\">"
+      ],
+      "answer": 1,
+      "type": "single"
+    },
+    {
+      "question": "How do you write \"Hello World\" in an alert box?",
+      "choices": [
+        "msgBox(\"Hello World\");",
+        "alert(\"Hello World\");",
+        "alertBox(\"Hello World\");",
+        "msg(\"Hello World\");"
+      ],
+      "answer": 1,
+      "type": "single"
+    }
+  ]
+}
