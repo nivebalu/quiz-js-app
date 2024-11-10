@@ -4,9 +4,14 @@ body {
   background-color: #f4f4f9; /* Light background for contrast */
   color: #333; /* Dark text color */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 100px 0;
+}
+
+.main-heading {
+  font-size: 60px;
 }
 
 /* Style the form */
